@@ -1,0 +1,76 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  id: 589d7f8a0cf28d38b4d709cd
+  name: vy301-efd-dev
+  displayName: vy301-efd (dev)
+  orgType: apiProvider
+  status: active
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/589d7f8a0cf28d38b4d709cd'
+  externalOrgId: b428bb57-d080-4bcc-9af9-350be0170b8d
+  externalInviteOverride: 'https://console.ng.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: b428bb57-d080-4bcc-9af9-350be0170b8d
+  externalNativeOrgId: 2b552b20-5bd3-4837-b210-88f5e7093a09
+catalog:
+  id: 589d7f8a0cf28d38b4d709db
+  orgId: 589d7f8a0cf28d38b4d709cd
+  name: Sandbox
+  shortName: sb
+  owner:
+    id: 589d7f870cf28d38b4d709ca
+    username: ahmedrefaat532@aucegypt.edu
+    context: apimanager
+    idpId: 58341db4e63b1219f0f068d1
+    email: ahmedrefaat532@aucegypt.edu
+    firstName: Ahmed Mohamed
+    lastName: ''
+    status: ACTIVE
+    lastLoginTime: '2017-02-10T08:53:51.997+0000'
+    url: 'https://us.apiconnect.ibmcloud.com/v1/users/589d7f870cf28d38b4d709ca'
+  apiCenter: false
+  baseUrl: 'https://api.us.apiconnect.ibmcloud.com/vy301-efd-dev/sb'
+  portalType: BASIC
+  portalUrl: 'https://developer.us.apiconnect.ibmcloud.com/vy301-efd-dev/sb'
+  advPortalUrl: 'https://sb-vy301-efd-dev.developer.us.apiconnect.ibmcloud.com'
+  gatewayType: DataPowerGateway
+  idp: 589d7f8b0cf28d38b4d709de
+  idps:
+    - 589d7f8b0cf28d38b4d709de
+  availableRoles:
+    - developer
+    - viewer
+  default: false
+  autoDeploy: true
+  gatewayClusterUrl: /gatewayClusters/PRODAPIC_APIMGMT_GATEWAY
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  spaceEnabled: false
+  spaceIds:
+    - 589d7f8b0cf28d38b4d709e6
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: d15c9638-d379-4ad2-b1ce-ad92fb906f54
+    clientSecret: D8xQ3dQ6cG7qA5gQ8jB8cH1yF2uQ3wM1qC3tF2bK8oY5bP6hN0
+  createdAt: '2017-02-10T08:53:31.696+0000'
+  updatedAt: '2017-02-10T08:53:31.696+0000'
+  createdBy: apim-ops@wwpdl.vnet.ibm.com
+  updatedBy: apim-ops@wwpdl.vnet.ibm.com
+  url: >-
+    https://us.apiconnect.ibmcloud.com/v1/orgs/589d7f8a0cf28d38b4d709cd/environments/589d7f8a0cf28d38b4d709db
+  productDeploymentApprovalRequiredStates: []
+  orgName: vy301-efd-dev
+space:
+  none: true
+app:
+  new: true
+  name: cure-app
+id: 6e57a172-1668-492b-b3ec-43c3928c213c
+target: 1.0.0

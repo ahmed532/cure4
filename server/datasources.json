@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "coudantdb": {
+    "url": "https://142365c4-499c-4ae6-8a66-424130150837-bluemix:e557a03334fc0377a1cd86c474fd906a55e570cbbce422f5a0cddbd892e2f578@142365c4-499c-4ae6-8a66-424130150837-bluemix.cloudant.com",
+    "database": "curedb",
+    "username": "142365c4-499c-4ae6-8a66-424130150837-bluemix",
+    "password": "e557a03334fc0377a1cd86c474fd906a55e570cbbce422f5a0cddbd892e2f578",
+    "name": "coudantdb",
+    "connector": "cloudant"
+  }
+}
